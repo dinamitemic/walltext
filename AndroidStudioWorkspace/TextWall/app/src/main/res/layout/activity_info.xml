@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mala.textwall.InfoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Benvenuto su TextWall!!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Inserisci il MAC address del dispositivo bluetooth. \n2. Premi 'Connect' per iniziare la connessione.\n3. Scrivi il testo che vuoi inviare e premi il tasto send. \n4. Sbizzarrisciti con i vari controlli. \n5. Se desideri visualizzare tutte le notifiche del tuo dispositivo su TextWall segna la spunta e lascia l'applicazione aprte in background."
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers:\nCarlo Edoardo Malaspina\nMichele Gazzarri\nValerio Lieti"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:id="@+id/contactbtn"
+        android:onClick="contactUs"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:id="@+id/homebtn"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

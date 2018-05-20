@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Notify2nd.iml" filepath="$PROJECT_DIR$/Notify2nd.iml" />
+      <module fileurl="file://C:\Users\miche\NextCloud\UNIBO\Software per le TLC + Lab\Laboratorio\walltext_dev\Notify2nd\Notify2nd.iml" filepath="C:\Users\miche\NextCloud\UNIBO\Software per le TLC + Lab\Laboratorio\walltext_dev\Notify2nd\Notify2nd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

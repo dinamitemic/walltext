@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mala.textwall.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Arduino MAC address:"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/mac_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text|number"
+        android:selectAllOnFocus="false"
+        android:text="98:D3:31:FC:16:8C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press to connect:"
+        android:layout_marginTop="5dp"/>
+
+    <ToggleButton
+        android:id="@+id/connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Connect"
+        android:textOn="Disconnect" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send text to Matrix:"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendtext"
+        android:text="Write here..."
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SEND"
+        android:id="@+id/send"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/intensity"
+        android:text="INTENSITY"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delay:"/>
+
+    <SeekBar
+        android:id="@+id/speedbar"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:progress="40"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invert"
+            android:text="INVERT"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/effecti"
+            android:text="EFFECT IN"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/effecto"
+            android:text="EFFECT OUT"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetbtn"
+            android:text="RESET"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_check"
+        android:text="Send Notification"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/infobtn"
+        android:text="INFO"
+        android:layout_gravity="center"
+        android:onClick="runInfoActivity"/>
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+http://www.instructables.com/id/Android-Bluetooth-Control-LED-Part-2/
+https://stackoverflow.com/questions/47594415/android-sending-info-via-bluetooth-fast-logging

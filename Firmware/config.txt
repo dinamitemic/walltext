@@ -1,0 +1,9 @@
+// Hardware definition
+#define	MAX_DEVICES	4
+#define CLK_PIN   13
+#define DATA_PIN  8
+#define CS_PIN    9
+
+#define	HW_DIG_ROWS	1
+#define	HW_REV_COLS	0
+#define	HW_REV_ROWS	0

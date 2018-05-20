@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mala.notify2nd.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="NOTIFY"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Arduino MAC address:"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/mac_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="MAC_ADDRESS"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press to connect:"
+        android:layout_marginTop="20dp"/>
+
+    <ToggleButton
+        android:id="@+id/connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Select function:"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonnotific"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Send Notification"
+            android:onClick="startNotificationActivity"/>
+
+        <Button
+            android:id="@+id/buttontext"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:text="Send Text"
+            android:onClick="startTextActivity"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tetris"
+        android:text="TETRIS"
+        android:onClick="startTetris"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers: \n Carlo Edoardo Malaspina \n Michele Gazzarri \n Valerio Lieti"
+        android:layout_marginTop="50dp"/>
+
+
+
+</LinearLayout>
